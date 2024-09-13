@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fitApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Label
+                Text="Twoje aktywności"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+
+            <ListView x:Name="activitiesListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="20" Orientation="Horizontal" Spacing="6">
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Kilometers, StringFormat='| Kilometry {0}'}" />
+                                <Label Text="{Binding Calories, StringFormat='| Kalorie {0}'}" />
+                                <Button Text="Edytuj" x:Name="editBtn" />
+                                <Button Text="Usuń" x:Name="deleteBtn" Clicked="OnDeleteClicked" CommandParameter="{Binding Id}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button
+                x:Name="addActive"
+                Text="Dodaj nową aktywność" 
+                SemanticProperties.Hint="Opens form to add active"
+                Clicked="OpenPage"
+                WidthRequest="300"
+                HorizontalOptions="Start"
+                />
+               
+                
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
