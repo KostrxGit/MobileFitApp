@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Important Things\\MobileFitApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\models\\statisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\models\\statisticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\activitiesform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\activitiesform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|d:\\important things\\mobilefitapp\\fitapp\\activitiesform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AC4048-F1FF-43C4-9A68-56E497BEB0FF}|fitApp\\fitApp.csproj|solutionrelative:fitapp\\activitiesform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActivitiesForm.xaml.cs",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\ActivitiesForm.xaml.cs",
+              "RelativeDocumentMoniker": "fitApp\\ActivitiesForm.xaml.cs",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\ActivitiesForm.xaml.cs",
+              "RelativeToolTip": "fitApp\\ActivitiesForm.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:31:38.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActivitiesForm.xaml",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\ActivitiesForm.xaml",
+              "RelativeDocumentMoniker": "fitApp\\ActivitiesForm.xaml",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\ActivitiesForm.xaml",
+              "RelativeToolTip": "fitApp\\ActivitiesForm.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-14T14:31:34.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatisticsViewModel.cs",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\Models\\StatisticsViewModel.cs",
+              "RelativeDocumentMoniker": "fitApp\\Models\\StatisticsViewModel.cs",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\Models\\StatisticsViewModel.cs",
+              "RelativeToolTip": "fitApp\\Models\\StatisticsViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwv0gAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:27:52.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "fitApp\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "fitApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:26:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\Data\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "fitApp\\Data\\DatabaseService.cs",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\Data\\DatabaseService.cs",
+              "RelativeToolTip": "fitApp\\Data\\DatabaseService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADwv0UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:24:52.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Important Things\\MobileFitApp\\fitApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "fitApp\\MainPage.xaml",
+              "ToolTip": "D:\\Important Things\\MobileFitApp\\fitApp\\MainPage.xaml",
+              "RelativeToolTip": "fitApp\\MainPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-13T15:59:56.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

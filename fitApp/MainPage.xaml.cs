@@ -1,26 +1,33 @@
 ﻿using fitApp;
 using fitApp.Data;
 using fitApp.Models;
+using fitApp.ViewModels;
 
 namespace fitApp
 {
     public partial class MainPage : ContentPage
     {
         private DatabaseService _databaseService;
-       
+        private StatisticsViewModel _statisticsViewModel;
+
         public MainPage()
         {
             InitializeComponent();
             _databaseService = new DatabaseService();
+            _statisticsViewModel = new StatisticsViewModel();
+            BindingContext = _statisticsViewModel;
 
             var activities = _databaseService.GetActivities();
             activitiesListView.ItemsSource = activities;
             LoadActivities();
 
-            MessagingCenter.Subscribe<ActivitiesForm>(this, "RefreshActivities", (sender) =>
+            MessagingCenter.Subscribe<ActivitiesForm>(this, "RefreshAll", (sender) =>
             {
                 LoadActivities();
+                _statisticsViewModel.LoadStatistics();
             });
+
+            
         }
 
         public void LoadActivities()
@@ -40,7 +47,8 @@ namespace fitApp
 
         public void OpenPage(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ActivitiesForm());
+            Navigation.PushAsync(new ActivitiesForm(_statisticsViewModel));
+            
         }
 
         

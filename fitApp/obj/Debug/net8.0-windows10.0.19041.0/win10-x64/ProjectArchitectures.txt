@@ -1,1 +1,1 @@
-C:\Users\koste\source\repos\fitApp\fitApp\fitApp.csproj;x64
+D:\Important Things\MobileFitApp\fitApp\fitApp.csproj;x64

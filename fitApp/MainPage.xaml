@@ -7,7 +7,66 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            
+            <Label
+                Text="Statystyki"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />        
+            <HorizontalStackLayout Padding="10" Spacing="10" HorizontalOptions="Center">
+                
+
+                <!-- Pierwszy box: Kilometry -->
+                <Frame BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="20"
+                   Margin="10">
+                    <StackLayout>
+                        <Label Text="Całkowita liczba kilometrów" 
+                           FontSize="18" 
+                           HorizontalOptions="Center" />
+                        <Label Text="{Binding TotalKilometers}"
+                           FontSize="24" 
+                           HorizontalOptions="Center" />
+                        <Label Text="Średnia liczba kilometrów"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                        <Label Text="{Binding AvgKilometers}"
+                           FontSize="24"
+                           HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Drugi box: Kalorie -->
+                <Frame BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="20"
+                   Margin="10">
+                    <StackLayout>
+                        <Label Text="Całkowita liczba kalorii"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                        <Label Text="{Binding TotalCalories}"
+                           FontSize="24"
+                           HorizontalOptions="Center" />
+                        <Label Text="Średnia liczba kalorii"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+                        <Label Text="{Binding AvgCalories}"
+                           FontSize="24"
+                           HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+
+                
+                    <StackLayout HorizontalOptions="Center">
+                        <Button Text="Podgląd wszystkich statystyk"
+                            HorizontalOptions="Center"
+                             />
+                    </StackLayout>
+               
+
+            </HorizontalStackLayout>
+
             <Label
                 Text="Twoje aktywności"
                 FontSize="Title"

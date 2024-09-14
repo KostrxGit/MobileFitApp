@@ -46,6 +46,35 @@ namespace fitApp.Data
             return 0; // Jeśli nie znaleziono aktywności, nie wykonano żadnej operacji
         }
 
+        public int GetTotalKilometers()
+        {
+            // Pobierz wszystkie aktywności
+            var activities = GetActivities();
+
+            // Zsumuj kilometry
+            return activities.Sum(activity => activity.Kilometers);
+        }
+
+        public int GetAvgKilometers() 
+        {
+            var activities = GetActivities();
+
+            return (int)activities.Average(activity => activity.Kilometers);
+        }
+
+        public int GetTotalCalories()
+        {
+            var activities = GetActivities();
+            return activities.Sum(activity => activity.Calories);
+        }
+
+        public int GetAvgCalories()
+        {
+            var activities = GetActivities();
+
+            return (int)activities.Average(activity => activity.Calories);
+        }
+
         public List<Activites> GetActivities()
         {
             return _database.Table<Activites>().ToList();

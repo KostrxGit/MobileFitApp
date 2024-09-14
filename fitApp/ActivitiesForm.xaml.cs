@@ -1,5 +1,6 @@
 using fitApp.Data;
 using fitApp.Models;
+using fitApp.ViewModels;
 using System;
 
 namespace fitApp;
@@ -7,11 +8,13 @@ namespace fitApp;
 public partial class ActivitiesForm : ContentPage
 {
     private readonly DatabaseService _databaseService;  // Definiujemy pole klasy
-    public ActivitiesForm()
+    private readonly StatisticsViewModel _statisticsViewModel;
+    public ActivitiesForm(StatisticsViewModel statisticsViewModel)
 	{
 		InitializeComponent();
         _databaseService = new DatabaseService();  // Inicjalizujemy pole klasy
-	}
+        _statisticsViewModel = new StatisticsViewModel();
+    }
 
 
     public async void OnSaveClicked(object sender, EventArgs e)
@@ -66,6 +69,8 @@ public partial class ActivitiesForm : ContentPage
         try
         {
             _databaseService.SaveActivity(activity);
+
+            _statisticsViewModel.LoadStatistics();
         }
         catch (Exception ex)
         {
@@ -75,6 +80,7 @@ public partial class ActivitiesForm : ContentPage
 
         // Go back to the main page
         await Navigation.PopAsync();
-        MessagingCenter.Send(this, "RefreshActivities");
+        MessagingCenter.Send(this, "RefreshAll");
+        
     }
 }
